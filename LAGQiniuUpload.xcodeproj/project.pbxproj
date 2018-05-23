@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0839C89020B5B09100EA6DE9 /* UploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0839C88F20B5B09100EA6DE9 /* UploadManager.m */; };
+		087CE0EE20B59C680021840F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087CE0ED20B59C680021840F /* AppDelegate.m */; };
+		087CE0F120B59C680021840F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087CE0F020B59C680021840F /* ViewController.m */; };
+		087CE0F420B59C680021840F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087CE0F220B59C680021840F /* Main.storyboard */; };
+		087CE0F620B59C6A0021840F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087CE0F520B59C6A0021840F /* Assets.xcassets */; };
+		087CE0F920B59C6A0021840F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087CE0F720B59C6A0021840F /* LaunchScreen.storyboard */; };
+		087CE0FC20B59C6A0021840F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087CE0FB20B59C6A0021840F /* main.m */; };
+		DA181623B7238392DB174ABC /* libPods-LAGQiniuUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96787A2C5205F40157580768 /* libPods-LAGQiniuUpload.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0839C88E20B5B09100EA6DE9 /* UploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadManager.h; sourceTree = "<group>"; };
+		0839C88F20B5B09100EA6DE9 /* UploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadManager.m; sourceTree = "<group>"; };
+		087CE0E920B59C680021840F /* LAGQiniuUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAGQiniuUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087CE0EC20B59C680021840F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087CE0ED20B59C680021840F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087CE0EF20B59C680021840F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		087CE0F020B59C680021840F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087CE0F320B59C680021840F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087CE0F520B59C6A0021840F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087CE0F820B59C6A0021840F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		087CE0FA20B59C6A0021840F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087CE0FB20B59C6A0021840F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96787A2C5205F40157580768 /* libPods-LAGQiniuUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LAGQiniuUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A189358384304164C55A8609 /* Pods-LAGQiniuUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAGQiniuUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAGQiniuUpload/Pods-LAGQiniuUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		B08D1E88C4DA1DB708F7A120 /* Pods-LAGQiniuUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAGQiniuUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAGQiniuUpload/Pods-LAGQiniuUpload.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087CE0E620B59C680021840F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA181623B7238392DB174ABC /* libPods-LAGQiniuUpload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0370A9C415CCE4C7044F323D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A189358384304164C55A8609 /* Pods-LAGQiniuUpload.debug.xcconfig */,
+				B08D1E88C4DA1DB708F7A120 /* Pods-LAGQiniuUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		087CE0E020B59C680021840F = {
+			isa = PBXGroup;
+			children = (
+				087CE0EB20B59C680021840F /* LAGQiniuUpload */,
+				087CE0EA20B59C680021840F /* Products */,
+				0370A9C415CCE4C7044F323D /* Pods */,
+				EC0BE20E4CF8AE2C387EEE23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		087CE0EA20B59C680021840F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087CE0E920B59C680021840F /* LAGQiniuUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087CE0EB20B59C680021840F /* LAGQiniuUpload */ = {
+			isa = PBXGroup;
+			children = (
+				087CE0EC20B59C680021840F /* AppDelegate.h */,
+				087CE0ED20B59C680021840F /* AppDelegate.m */,
+				0839C88E20B5B09100EA6DE9 /* UploadManager.h */,
+				0839C88F20B5B09100EA6DE9 /* UploadManager.m */,
+				087CE0EF20B59C680021840F /* ViewController.h */,
+				087CE0F020B59C680021840F /* ViewController.m */,
+				087CE0F220B59C680021840F /* Main.storyboard */,
+				087CE0F520B59C6A0021840F /* Assets.xcassets */,
+				087CE0F720B59C6A0021840F /* LaunchScreen.storyboard */,
+				087CE0FA20B59C6A0021840F /* Info.plist */,
+				087CE0FB20B59C6A0021840F /* main.m */,
+			);
+			path = LAGQiniuUpload;
+			sourceTree = "<group>";
+		};
+		EC0BE20E4CF8AE2C387EEE23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96787A2C5205F40157580768 /* libPods-LAGQiniuUpload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087CE0E820B59C680021840F /* LAGQiniuUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087CE0FF20B59C6A0021840F /* Build configuration list for PBXNativeTarget "LAGQiniuUpload" */;
+			buildPhases = (
+				C67D702460D3C203C5B45387 /* [CP] Check Pods Manifest.lock */,
+				087CE0E520B59C680021840F /* Sources */,
+				087CE0E620B59C680021840F /* Frameworks */,
+				087CE0E720B59C680021840F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAGQiniuUpload;
+			productName = LAGQiniuUpload;
+			productReference = 087CE0E920B59C680021840F /* LAGQiniuUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087CE0E120B59C680021840F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = notme;
+				TargetAttributes = {
+					087CE0E820B59C680021840F = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 087CE0E420B59C680021840F /* Build configuration list for PBXProject "LAGQiniuUpload" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 087CE0E020B59C680021840F;
+			productRefGroup = 087CE0EA20B59C680021840F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087CE0E820B59C680021840F /* LAGQiniuUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087CE0E720B59C680021840F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087CE0F920B59C6A0021840F /* LaunchScreen.storyboard in Resources */,
+				087CE0F620B59C6A0021840F /* Assets.xcassets in Resources */,
+				087CE0F420B59C680021840F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C67D702460D3C203C5B45387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAGQiniuUpload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087CE0E520B59C680021840F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087CE0F120B59C680021840F /* ViewController.m in Sources */,
+				087CE0FC20B59C6A0021840F /* main.m in Sources */,
+				0839C89020B5B09100EA6DE9 /* UploadManager.m in Sources */,
+				087CE0EE20B59C680021840F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		087CE0F220B59C680021840F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087CE0F320B59C680021840F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087CE0F720B59C6A0021840F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087CE0F820B59C6A0021840F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		087CE0FD20B59C6A0021840F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		087CE0FE20B59C6A0021840F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087CE10020B59C6A0021840F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A189358384304164C55A8609 /* Pods-LAGQiniuUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDVXT95SNR;
+				INFOPLIST_FILE = LAGQiniuUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmm.com.LAGQiniuUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		087CE10120B59C6A0021840F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08D1E88C4DA1DB708F7A120 /* Pods-LAGQiniuUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDVXT95SNR;
+				INFOPLIST_FILE = LAGQiniuUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emmm.com.LAGQiniuUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087CE0E420B59C680021840F /* Build configuration list for PBXProject "LAGQiniuUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087CE0FD20B59C6A0021840F /* Debug */,
+				087CE0FE20B59C6A0021840F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087CE0FF20B59C6A0021840F /* Build configuration list for PBXNativeTarget "LAGQiniuUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087CE10020B59C6A0021840F /* Debug */,
+				087CE10120B59C6A0021840F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 087CE0E120B59C680021840F /* Project object */;
+}
