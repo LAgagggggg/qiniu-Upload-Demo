@@ -24,9 +24,9 @@
 }
 
 -(void)uploadImage:(UIImage *)img WithName:(NSString *)name{
-    NSString * uploadToken=[self uploadTokenWithBucket:@"lagagggggg"
-                      AccessKey:@"cq-cmYO3NE8A6YQmWeM2NAX7v8X2xS9MyviutK14"
-                      SecretKey:@"RwkVc4iv_3WBOt8yYbb3q-31vtp9RFuGNeEN-ImK"];
+    NSString * uploadToken=[self uploadTokenWithBucket:@"BUCKET"
+                      AccessKey:@"MY_ACCESSKEY"
+                      SecretKey:@"MY_SECRETKEY"];
     NSData * imgData=UIImageJPEGRepresentation(img, 1);
     NSString * url=@"http://upload-z2.qiniu.com";
     NSString * key=name;
