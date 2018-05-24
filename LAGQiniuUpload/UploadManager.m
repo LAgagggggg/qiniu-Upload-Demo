@@ -24,14 +24,19 @@
 }
 
 -(void)uploadImage:(UIImage *)img WithName:(NSString *)name{
-    NSString * uploadToken=[self uploadTokenWithBucket:@"BUCKET"
-                      AccessKey:@"MY_ACCESSKEY"
-                      SecretKey:@"MY_SECRETKEY"];
+    NSString * uploadToken=[self uploadTokenWithBucket:@"MYBUCKET"
+                      AccessKey:@"MYACCESSKEY"
+                      SecretKey:@"MYSECRETKEY"];
     NSData * imgData=UIImageJPEGRepresentation(img, 1);
     NSString * url=@"http://upload-z2.qiniu.com";
     NSString * key=name;
+    NSDictionary * header=@{
+                            @"Authorization":[NSString stringWithFormat:@"UpToken %@",uploadToken],
+                            @"Content-Type": @"application/json",
+                            @"Host": url,
+                            };
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager POST:url parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    [manager POST:url parameters:header constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         [formData appendPartWithFormData:[key dataUsingEncoding:NSUTF8StringEncoding] name:@"key"];
         [formData appendPartWithFormData:[uploadToken dataUsingEncoding:NSUTF8StringEncoding] name:@"token"];
         [formData appendPartWithFormData:imgData name:@"file"];
